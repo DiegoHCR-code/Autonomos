@@ -629,3 +629,41 @@ footer{
 .copy p{
     padding: 25px 0;
 }
+
+
+/* PAGINA ABOUT US */
+
+/* About Us Style */
+.allcontent-about{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.allcontent-about h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #1E71CF;
+}
+
+.allcontent-about h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.wrapper-content-about{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+.left-about{
+    width: 50%;
+}
+
+.rigth-about{
+    width: 50%;
+    text-align: start;
+}
+
