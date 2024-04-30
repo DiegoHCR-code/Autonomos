@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 2180px;
+}
+
+/* Main Style */
+
+.main{
+    background-color: #F7F7F7;
+    margin-bottom: 100px;
+}
+
+.content-main{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 75px;
+    width: 50%;
+}
+
+.left-main h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px
+}
+
+.left-main p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.left-main a {
+    background-color: #1E71CF;
+    color: white;
+    font-weight: 16px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 5px;
+    max-width: max-content;
+}
+
+.right-main{
+    width: 50%;
+}
+
+.right-main img{
+    width: 100%;
+    height: auto;
+}
+
+/* Tutorial Style */
+
+.tutorial-to-buy{
+    margin-bottom: 100px
+}
+
+.allcontent-tutorial h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #1E71CF;
+
+}
+
+.allcontent-tutorial h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.wrapper-tutorial{
+    text-align: center;
+}
+
+.wrapper-content-tutorial{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+.content-tutorial{
+    margin: 0 25px;
+    width: 33%;
+}
+
+.content-tutorial img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.content-tutorial h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+.content-tutorial p{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.banner img{
+    margin: 0 50px;
+    border-radius: 15px;
+}
+
+/* Why-Us Style */
+
+.why-choose-us{
+    margin-bottom: 100px;
+}
+
+.wrapper-content-choose{
+    display: flex;
+}
+
+.left-content-choose{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.left-content-choose img{
+    width: 100%;
+    height: auto;
+}
+
+.right-content-choose{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.right-content-choose h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #1E71CF;
+}
+
+.right-content-choose h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.content-choose{
+    display: flex;
+    margin: 25px 0;
+}
+
+.content-choose img{
+    width: 125px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.text-content-choose h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 10px;
+}
+
+.text-content-choose p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Buy Style */
+
+.allcontent-buy{
+    text-align: center;
+}
+
+.allcontent-buy h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #1E71CF;
+}
+
+.allcontent-buy h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 50px;
+}
