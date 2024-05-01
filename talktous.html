@@ -1,64 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autonômos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="wrapper-content-header">
-          <div class="logo">
-            <a href="/home.html" class="logo">
-              <img src="assets/logo-test.png" alt="">
-            </a>
-          </div>
-          <div class="menu">
-              <input type="checkbox" id="overlay-input" />
-              <label for="overlay-input" id="overlay-button"><span></span></label>
-              <div id="overlay">
-                  <ul>
-                      <li><a href="home.html">Principal</a></li>
-                      <li><a href="aboutus.html">Sobre nós</a></li>
-                      <li><a href="talktous.html">Fale conosco</a></li>
-                  </ul>
-              </div>
-          </div>
-      </div>
+            <div class="logo">
+                <a href="/home.html" class="logo">
+                    <img src="assets/logo-test.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <input type="checkbox" id="overlay-input" />
+                <label for="overlay-input" id="overlay-button"><span></span></label>
+                <div id="overlay">
+                    <ul>
+                        <li><a href="home.html">Principal</a></li>
+                        <li><a href="aboutus.html">Sobre nós</a></li>
+                        <li><a href="talktous.html">Fale conosco</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
 
+    <section class="talk-to-us">
+        <div class="wrapper-content-talk">
+            <div class="container">
+                <div class="allcontent-talk">
+                    <h4>Como contactar vocês?</h4>
+                    <h1>Fale conosco</h1>
+                    <div class="wrapper-content-talk">
+                        <form action="talktous.html" name="formTalktous">
+                            <div class="wrapper-text-form">
+                                <div class="text-form">
+                                    <label for="name-form" class="name-form">Nome:</label>
+                                    <input type="text" name="name-form" id="name-form" class="inputs required">
+                                    <span class="span-required" id="name-span">O nome deve possuir pelo menos 2 caracteres!</span>
+                                </div>
+                                <div class="text-form">
+                                    <label for="lastname-form" class="lastname-form">Sobrenome:</label>
+                                    <input type="text" name="lastname-form" id="lastname-form" class="inputs required">
+                                    <span class="span-required" id="lastname-span">O sobrenome deve possuir pelo menos 2 caracteres!</span>
+                                </div>
+                                <div class="text-form">
+                                    <label for="phone-number-form" class="phone-number-form">WhatsApp:</label>
+                                    <input type="text" name="phone-number-form" id="phone-number-form" class="inputs required">
+                                    <span class="span-required" id="phone-span">Insira um número de WhatsApp válido!</span>
+                                </div>
+                                <div class="text-form">
+                                    <label for="email-form" class="email-form">Email:</label>
+                                    <input type="text" name="email-form" id="email-form" class="inputs required">
+                                    <span class="span-required" id="email-span">Insira um email válido!</span>
+                                </div>
+                                <div class="message">
+                                    <label class="title-question ">Digite abaixo</label>
+                                    <textarea name="question" id="question" cols="30" rows="6"></textarea>
+                                </div>
+                                <div class="button-form">
+                                    <button type="submit" class="button" id="button-send">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="wrapper-footer-content">
             <div class="left-footer">
-              <img src="assets/logo-test.png" alt="logo">
-              <a href="#"> 
-                <img src="assets/map-icon.png" alt="">
-                Rua lorem ipsum, Lorem, 33333333, Brazil
-              </a>
-              <a href="#">
-                <img src="assets/phone-footer.png" alt="">
-                +55 34 99999-9999
-              </a>
-              <a href="#">
-                <img src="assets/letter-footer.png" alt="">
-                email@email.com
-              </a>
+                <img src="assets/logo-test.png" alt="logo">
+                <a href="#">
+                    <img src="assets/map-icon.png" alt="">
+                    Rua lorem ipsum, Lorem, 33333333, Brazil
+                </a>
+                <a href="#">
+                    <img src="assets/phone-footer.png" alt="">
+                    +55 34 99999-9999
+                </a>
+                <a href="#">
+                    <img src="assets/letter-footer.png" alt="">
+                    email@email.com
+                </a>
             </div>
             <div class="rigth-footer">
-              <h4>Siga-nos</h4>
-              <div class="social-medias">
-                <a href="#"><img src="assets/face-icon.png" alt="#"></a>
-                <a href="#"><img src="assets/insta-icon.png" alt="#"></a>
-                <a href="#"><img src="assets/youtube-icon.png" alt="#"></a>
-              </div>
+                <h4>Siga-nos</h4>
+                <div class="social-medias">
+                    <a href="#"><img src="assets/face-icon.png" alt="#"></a>
+                    <a href="#"><img src="assets/insta-icon.png" alt="#"></a>
+                    <a href="#"><img src="assets/youtube-icon.png" alt="#"></a>
+                </div>
             </div>
-          </div>
-          <div class="copy">
+        </div>
+        <div class="copy">
             <p>Copyright 2024 - Todos os direitos reservado</p>
-          </div>
+        </div>
     </footer>
 
 </body>
+
 </html>

@@ -816,3 +816,180 @@ footer{
     color: white;
     font-size: 18px;
 }
+
+/* Talk to use page */
+
+form{
+    border: 1px solid rgb(196, 196, 196);
+    padding: 50px;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    box-shadow: 1px 3px 10px #e8e8e8;
+}
+
+.text-form{
+    text-align: start;
+}
+
+.text-form label, .message label{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text-form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: #f2f0f0;
+    border: none;
+    color: #333;
+}
+
+.span-required{
+    color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+}
+
+.message{
+    text-align: start;
+}
+
+.message textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background: #f2f0f0;
+    border: none;
+    color: #333;
+}
+
+.button{
+    background-color: #1E71CF;
+    color: white;
+    font-weight: 16px;
+    padding: 20px 30px;
+    border-radius: 25px;
+    width: 75%;
+    border: none;
+    font-size: 18px;
+}
+
+.button:hover{
+    background-color: #333;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1000px) {
+
+    /* Main Style Responsive*/
+
+    .left-main{
+        margin: 0 25px;
+    }
+
+    .left-main h1{
+        font-size: 30px;
+    }
+
+    .left-main p{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .right-main{
+        width: 100%;
+    }
+
+    .allcontent-tutorial h1, .allcontent-buy h1{
+        font-size: 30px;
+    }
+
+    .allcontent-tutorial h4, .allcontent-buy h4{
+        font-size: 18px;
+    }
+
+    /* Tutorial Responsive */
+    .wrapper-content-tutorial{
+        flex-direction: column;
+    }
+
+    .allcontent-clients{
+        display: none;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .banner img{
+        width: 100px;
+    }
+
+    .left-content-choose, .rigth-talk{
+        display: none;
+    }
+
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .card button{
+        font-size: 22px;
+        padding: 15px 30px;
+    }
+
+    .owl-carousel{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allcontent-talk{
+        margin-bottom: 100px;
+    }
+
+    .wrapper-content-talk{
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        border: 1px solid rgb(196, 196, 196);
+    }
+
+    .wrapper-footer-content{
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .right-main, .allcontent-talk{
+        display: none;
+    }
+
+    .wrapper-content-tutorial{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper-content-choose{
+        justify-content: center;
+    }
+}
