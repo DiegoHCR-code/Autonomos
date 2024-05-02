@@ -284,6 +284,8 @@ a{
     border-radius: 15px;
 }
 
+
+
 /* Why-Us Style */
 
 .why-choose-us{
@@ -858,13 +860,13 @@ form{
 }
 
 .span-required{
-    color: red;
+    color: rgb(255, 0, 0);
     padding: 10px 20px;
     border-radius: 10px;
-    border: 1px solid red;
-    font-size: 18px;
-    font-weight: bold;
     display: none;
+    font-weight: normal;
+    font-size: 14px;
+    margin: -10px 0px 10px 0px;
 }
 
 .message{

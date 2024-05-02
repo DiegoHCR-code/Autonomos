@@ -37,8 +37,7 @@
                     <h4>Como contactar vocês?</h4>
                     <h1>Fale conosco</h1>
                     <div class="wrapper-content-talk">
-                        <form action="talktous.html" name="formTalktous">
-                            <div class="wrapper-text-form">
+                        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">                            <div class="wrapper-text-form">
                                 <div class="text-form">
                                     <label for="name-form" class="name-form">Nome:</label>
                                     <input type="text" name="name-form" id="name-form" class="inputs required">
@@ -68,7 +67,7 @@
                                     <textarea name="question" id="question" cols="30" rows="6"></textarea>
                                 </div>
                                 <div class="button-form">
-                                    <button type="submit" class="button" id="button-send">Enviar</button>
+                                    <input type="submit" value="Enviar" class="button" id="button-send"></input>
                                 </div>
                             </div>
                         </form>
@@ -130,7 +129,7 @@
             <p>Copyright 2024 - Todos os direitos reservado</p>
         </div>
     </footer>
-
+    <script src="main.js"></script>
 </body>
 
 </html>
