@@ -30,6 +30,18 @@ $('.owl-carousel').owlCarousel({
 
 var buttonSend = document.getElementById('button-send');
 
+var p = document.getElementById('counter-experience');
+var intervalId = setInterval(function() {
+    var currentValue = parseInt(p.textContent);
+
+    if (currentValue < 7) {
+        p.textContent = (currentValue + 1) + "+ anos de experiência";
+    } else {
+        clearInterval(intervalId); 
+    }
+}, 250);
+
+
 buttonSend.addEventListener('click', function(e){
     validateForm(e);
 });

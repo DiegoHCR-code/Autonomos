@@ -758,6 +758,10 @@ footer{
     color: rgb(255, 255, 255);
 }
 
+.allcontent-choose{
+    text-align: center;
+}
+
 .service1{
     background: linear-gradient(rgba(21, 21, 122, 0.349), rgba(2, 2, 107, 0.37)), url('assets/service1.jpg');
     width: 500px;
@@ -781,6 +785,20 @@ footer{
     background-size: cover;
     background-position: center;
 }
+
+.icon-whats-main{
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+}
+
+.icon-whats-main img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
 
 /* Experts Style */
 
@@ -1110,6 +1128,7 @@ form{
         font-size: 16px;
         width: 100%;
     }
+
 
     .right-main{
         width: 100%;
