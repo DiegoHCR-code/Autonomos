@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
-    line-height: 30px;
 }
 
 a{
@@ -215,20 +214,25 @@ a{
     height: auto;
 }
 
+
+
 /* Tutorial Style */
 
 .tutorial-to-buy{
     margin-bottom: 100px
 }
 
-.allcontent-tutorial h4{
+.allcontent-tutorial h4, .allcontent-where h4{
     font-size: 22px;
     font-weight: 700;
     color: #1E71CF;
-
 }
 
-.allcontent-tutorial h1 {
+.allcontent-where{
+    text-align: center;
+}
+
+.allcontent-tutorial h1, .allcontent-where h1 {
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 50px;
@@ -457,8 +461,6 @@ a{
     display: flex;
     text-align: start;
     border-radius: 25px;
-    border: 1px solid rgb(223, 223, 223);
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
     justify-content: center;
     align-items: center;
     margin: 0 10px;
@@ -799,7 +801,7 @@ footer{
 }
 
 .allcontent-experts .owl-carousel .item img{
-    width: 570px;
+    width: 410px;
     height: 500px;
     border-radius: 25px;
 
@@ -931,6 +933,22 @@ form{
     .left-about img{
         width: 90%;
     }
+
+    .our-clients{
+        margin-bottom: 30px;
+    }
+
+    .content-tutorial{
+        margin: 0;
+    }
+
+    .wrapper-footer-content{
+        flex-direction: column;
+    }
+
+    .left-footer{
+        width: 100%;
+    }
     
     .logo{
         display: flex;
@@ -993,6 +1011,11 @@ form{
 
     .item{
         flex-direction: column;
+        margin: 0;
+    }
+
+    .allcontent-experts{
+        margin-bottom: 30px;
     }
 
     .right-content-choose{
@@ -1001,7 +1024,7 @@ form{
     }
 
     .allcontent-experts .owl-carousel .item img{
-        width: 410px;
+        width: 100%;
     }
 
     .allcontent-experts .owl-carousel .item h3{
@@ -1069,6 +1092,7 @@ form{
     }
 }
 
+
 @media (min-width: 481px) and (max-width: 767px) {
     /* Main Style Responsive*/
 
@@ -1097,6 +1121,10 @@ form{
         font-size: 18px;
     }
 
+    .banner {
+        display: none;
+    }
+
     /* Tutorial Responsive */
     .wrapper-content-tutorial{
         flex-direction: column;
@@ -1114,6 +1142,10 @@ form{
     .container-cards{
         flex-direction: column;
         align-items: center;
+    }
+
+    .content-main .left-main h1{
+        font-size: 50px;
     }
 
     .card{
