@@ -7,6 +7,10 @@ $('.owl-carousel').owlCarousel({
             items:1,
             nav:true
         },
+        400:{
+            items:1,
+            nav:false
+        },
         600:{
             items:2,
             nav:false

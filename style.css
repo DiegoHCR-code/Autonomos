@@ -648,13 +648,13 @@ footer{
     margin-top: 50px;
 }
 
-.allcontent-about h4{
+.allcontent-about h4, .allcontent-choose h4{
     font-size: 22px;
     font-weight: 700;
     color: #1E71CF;
 }
 
-.allcontent-about h1{
+.allcontent-about h1, .allcontent-choose h1{
     font-size: 36px;
     font-weight: 700;
     color: #333;
@@ -957,6 +957,116 @@ form{
     .rigth-about a{
         font-size: 18px;
     }
+
+    .left-main{
+        margin: 20px;
+    }
+
+    .left-main h1{
+        font-size: 36px;
+    }
+
+    .wrapper-content-tutorial, .wrapper-content-choose{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .allcontent-tutorial h4, 
+    .allcontent-choose h4, 
+    .allcontent-buy h4,
+    .allcontent-clients h4,
+    .allcontent-talk h4{
+        font-size: 18px;
+    }
+
+    .allcontent-tutorial h1, 
+    .allcontent-choose h1, 
+    .allcontent-buy h1,
+    .allcontent-clients h1,
+    .allcontent-talk h1{
+        font-size: 26px;
+    }
+
+    .allcontent-choose{
+        text-align: center;
+    }
+
+    .item{
+        flex-direction: column;
+    }
+
+    .right-content-choose{
+        margin: 0;
+        width: 90%;
+    }
+
+    .allcontent-experts .owl-carousel .item img{
+        width: 410px;
+    }
+
+    .allcontent-experts .owl-carousel .item h3{
+        right: 35%;
+    }
+
+    .allcontent-experts .owl-carousel .item p{
+        right: 30%;
+    }
+    .content-tutorial{
+        width: 100%;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .left-card-client{
+        margin-bottom: 20px;
+    }
+
+    .rigth-card-client{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rigth-card-client h3{
+        font-size: 22px;
+    }
+
+    .left-talk{
+        width: 90%;
+    }
+
+    .left-content-choose{
+        width: 90%;
+    }
+
+    .left-talk p{
+        width: 100%;
+    }
+
+    .left-talk a{
+        margin-bottom: 30px;
+    }
+
+    .rigth-talk{
+        display: none;
+    }
+
+    .wrapper-content-talk{
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -1007,7 +1117,7 @@ form{
     }
 
     .card{
-        width: 50%;
+        width: 90%;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -1026,15 +1136,33 @@ form{
         flex-direction: column;
     }
 
-    .allcontent-talk{
-        margin-bottom: 100px;
+
+
+    .owl-carousel{
+        max-height: 350px;
+    }
+
+    .rigth-talk img{
+        width: 350px;
     }
 
     .wrapper-content-talk{
         align-items: center;
         justify-content: center;
-        padding: 30px;
         border: 1px solid rgb(196, 196, 196);
+    }
+
+    .left-talk{
+        padding-left: 30px;
+    }
+
+    .left-talk p{
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .left-talk a{
+        margin-bottom: 30px;
     }
 
     .wrapper-footer-content{
@@ -1138,8 +1266,8 @@ form{
         font-size: 22px;
     }
 
-    .right-main{
-        display: none;
+    .right-content-choose{
+        margin-left: 30px;
     }
 
     .allcontent-tutorial h1{
@@ -1149,6 +1277,28 @@ form{
     .left-main h1{
         font-size: 50px;
         line-height: 50px;
+    }
+
+    .item{
+        flex-direction: column;
+    }
+
+    .our-clients{
+        padding-bottom: 100px;
+        margin-bottom: 0;
+    }
+
+    .item .left-card-client{
+        margin-right: 0;
+    }
+
+    .left-card-client img{
+        border-radius: 25px;
+        margin-bottom: 30px;
+    }
+
+    .rigth-card-client{
+        text-align: center;
     }
 
 }
