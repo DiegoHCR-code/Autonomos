@@ -897,7 +897,66 @@ form{
 /* Responsive */
 
 @media (max-width: 480px){
+    .wrapper-content-about{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper-card-services{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-service{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .left-footer img{
+        width: 200px;
+    }
+
+    .left-footer {
+        margin-right: 50px;
+    }
+
+    .social-medias{
+        display: flex;
+    }
+
+    .left-about{
+        width: 90%;
+    }
+
+    .left-about img{
+        width: 90%;
+    }
     
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo a img{
+        width: 200px;
+    }
+
+    .rigth-about{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .rigth-about h1{
+        font-size: 48px;
+    }
+
+    .rigth-about a{
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -938,6 +997,9 @@ form{
         width: 100px;
     }
 
+    .owl-carousel {
+        max-height: 350px;
+    }
 
     .container-cards{
         flex-direction: column;
@@ -1000,6 +1062,10 @@ form{
     .left-about {
         width: 100%;
         margin-bottom: 50px;
+    }
+
+    .logo a img{
+        width: 350px;
     }
 
     .rigth-about{
